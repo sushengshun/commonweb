@@ -1,0 +1,6 @@
+/target
+/.settings
+/.classpath
+/.project
+/src/main/resources/a.txt
+/a.txt
