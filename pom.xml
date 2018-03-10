@@ -320,6 +320,7 @@
         
 	</dependencies>
 	<build>
+        <finalName>commonweb</finalName>  
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -327,10 +328,7 @@
 				<version>3.5.1</version>
 				<configuration>
 					<target>1.8</target>
-					<source>1.8</source>
-					<compilerArguments>
-						<bootclasspath>C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_144/jre/lib/jce.jar</bootclasspath>
-					</compilerArguments>
+					<source>1.8</source>	
 				</configuration>
 			</plugin>
 		</plugins>
